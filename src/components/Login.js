@@ -126,11 +126,11 @@ const Login = () => {
               }}
             >
               <Box>
-                <Typography variant="h4" color="initial" component="h1" color="white">
+                <Typography variant="h4" component="h1" color="white">
                   Automate your message service
                 </Typography>
                 <Box sx={{ display: "flex", justifyContent: "end" }}>
-                  <Typography sx={{ textAlign: "right", width: "70%" }}>
+                  <Typography sx={{ textAlign: "right", width: "75%" }}>
                     Make your tasks easy with Loopmee by an automated integration along with your
                     contacts
                   </Typography>
