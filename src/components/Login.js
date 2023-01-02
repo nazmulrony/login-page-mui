@@ -1,3 +1,4 @@
+import GoogleIcon from "@mui/icons-material/Google";
 import {
   Button,
   Checkbox,
@@ -50,11 +51,33 @@ const Login = () => {
                     />
                   </FormGroup>
                   <Typography>
-                    <Link href="/">Forgot Password?</Link>
+                    <Link href="/" underline="none">
+                      Forgot Password?
+                    </Link>
                   </Typography>
                 </Box>
-                <Button variant="contained">Sign In</Button>
+                <Button variant="contained" sx={{ p: 1 }}>
+                  Sign In
+                </Button>
               </form>
+              <Button
+                variant="outlined"
+                sx={{
+                  display: "flex",
+                  gap: "3px",
+                  p: 1,
+                  width: "100%",
+                  my: "1.5rem",
+                }}
+              >
+                <GoogleIcon /> Sign In with google
+              </Button>
+              <Typography variant="body2">
+                Don't have an account?
+                <Link href="/" underline="none">
+                  Sign Up
+                </Link>{" "}
+              </Typography>
             </Box>
           </Box>
         </Grid>
